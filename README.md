@@ -1,1 +1,1 @@
-# tinyone2
+https://faridcse.github.io/tinyone2/

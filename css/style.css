@@ -1,0 +1,140 @@
+common css start */
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #010101;
+}
+
+.c_h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #010101;
+}
+.c_p{
+	font-size: 20px;
+	color: #313841;
+	margin-top: 15px;
+}
+/* common css end */
+
+/* header css start */
+
+header{
+	background-color: #fcdb00;
+	padding: 20px 0;
+}
+
+.c_navbar{}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-size: 22px;
+	font-weight: 700;
+	color: #010101 !important;
+	padding: 0 95px !important;
+}
+.menu ul li a:last-child{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #fff !important;
+}
+/* header css end */
+
+/* slider-section css start */
+.slider-section{
+	padding-bottom: 100px;
+	background-color: #fcdb00;
+}
+
+.slider-icon{
+	font-size: 42px;
+}
+
+.carousel-indicators {
+    bottom: -15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    
+}
+
+.slider-text{
+	padding: 50px 0;
+}
+
+.slider-text h1{
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.slider-text h2{
+	font-size: 20px;
+	color: #313841;
+	margin-top: 20px;
+}
+
+.slider-text p{
+	font-size: 16px;
+	color: #555555;
+	line-height: 1.25;
+	margin-top: 25px;
+}
+.slider-icon{
+	margin-top: 40px;
+}
+.slider-icon ul li{
+	margin-right: 35px !important;
+	transition: 0.3s;
+}
+.slider-icon ul li:hover{
+	transform: scale(.8);
+}
+/* slider-section css end */
+
+/* features-secton css start */
+.features-section{
+	padding-top: 110px; 
+	padding-bottom: 150px;
+}
+
+.feature-icon{}
+.feature-icon i{
+	font-size: 50px;
+	position: absolute;	
+}
+.feature-text{
+	position: relative;
+	margin-left: 80px;
+}
+/* features-section css end
+
+/* contact-us section css start */
+.contact-us{
+	padding-top: 110px; 
+	padding-bottom: 150px;
+	background-color: #010101;
+}
+.contact-us-inner h1{
+	color: #fcdb00;
+}
+
+.contact-us-inner p{
+	color: #898989;
+}
+
+.social-icon ul li i{
+	font-size: 42px;
+	color: #010101;
+	background-color: #fcdb00;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin: 75px 15px 0;
+}
+/* contact-us section css end */
